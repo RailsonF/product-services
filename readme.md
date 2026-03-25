@@ -75,4 +75,3 @@ Para garantir alta performance, a listagem de produtos utiliza **Redis**:
 
 Projeto desenvolvido para fins acadêmicos — atividade de DevOps.
 
-```
