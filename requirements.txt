@@ -9,3 +9,6 @@ psycopg2-binary==2.9.9
 
 #validação de dados
 pydantic==2.5.3
+
+#cache
+redis==7.4.0
