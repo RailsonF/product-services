@@ -1,4 +1,3 @@
-````markdown
 # API de Produtos com FastAPI, PostgreSQL e Redis (Dockerized)
 
 Este projeto é uma API simples para gerenciamento de produtos, desenvolvida para demonstrar o uso de **Docker Compose** na orquestração de múltiplos serviços (Backend, Banco de Dados e Cache).
@@ -29,22 +28,20 @@ A aplicação utiliza uma arquitetura moderna dividida em três serviços princi
 ### 2. Configuração das Variáveis de Ambiente
 
 Crie um arquivo chamado `.env` na raiz do projeto e preencha com as seguintes variáveis:
-
-```env
 POSTGRES_USER=admin
 POSTGRES_PASSWORD=sua_senha_secreta
 POSTGRES_DB=padaria_db
 DATABASE_URL=postgresql://admin:sua_senha_secreta@postgres:5432/padaria_db
 REDIS_URL=redis://redis:6379/0
-````
+
 
 ### 3. Subir o ambiente
 
 No terminal, dentro da pasta do projeto, execute:
 
-```bash
+
 docker-compose up --build
-```
+
 
 O Docker irá baixar as imagens, buildar a API e configurar as redes automaticamente.
 
